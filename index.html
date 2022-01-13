@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <style>
+       .login-container{
+           display:flex;
+           justify-content: center;
+       } 
+       .loing-form{
+           flex-direction: column; 
+           display: flex;  
+       }
+       .loing-form input,button{
+           font-size: 1.3em;
+           margin-top:10px;
+           padding-left: 10px;
+           border-radius:5px ;
+       }
+       .loing-form button{
+           background-color: rgb(9, 136, 221);
+           color:whitesmoke;
+           font-weight: 700;
+           padding:3px;
+       }
+       nav a{
+           text-decoration: none;
+           color: black;
+           font-size: 1.5em;
+           margin-right: 20px;
+       }
+       </style>
+</head>
+<body>
+    <header>
+        <nav>
+          <a href="">Home</a>
+          <a href="">user</a>
+          <a href="">product</a>
+          <a href="">About us</a>
+          <a href=""><i class="fas fa-user-circle"></i></a>
+          <a href=""><i class="fas fa-user"></i></a>
+        </nav>
+    </header>
+    <section class="login-container">
+     <form class="loing-form">
+        <h2>Login</h2>
+        <input type="email" placeholder="your email address">
+        <input type="password" placeholder="password">
+        <button type="submit">Login</button>
+     </form>
+    </section>
+</body>
+</html>
